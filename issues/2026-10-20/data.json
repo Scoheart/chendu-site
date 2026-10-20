@@ -1,0 +1,584 @@
+{
+  "date": "2026-10-20",
+  "topic": "ai",
+  "topic_label": "AI",
+  "issue_title_zh": "AI 智能体越懂你越好用，也越危险：隐私新隐忧",
+  "lead_zh": "今天读美联社商业记者 Wyatte Grantham-Philips 的报道。多伦多科技博主让 Meta 的 AI 智能体 Muse 帮他在 Facebook Marketplace 卖键盘，结果它自作主张成交，还把他家住址告诉了陌生买家。文章借此讨论：智能体掌握的个人信息越多越好用，隐私风险也越大；数据一旦被读取就收不回，连不用智能体的亲友也会被波及。重点看：in the driver’s seat / strike a deal / only as good as / come down to / withdraw access / ripple effects 这类表达。",
+  "article": {
+    "title": "AI agents are only as good as the personal information you share. That raises privacy concerns",
+    "author": "Wyatte Grantham-Philips",
+    "source": "The Associated Press",
+    "published": "2026-10-19 03:17 EDT（北京时间 10 月 19 日 15:17；Yahoo 转载页时间）",
+    "url": "https://www.wral.com/news/ap/44973-ai-agents-are-only-as-good-as-the-personal-information-you-share-that-raises-privacy-concerns/",
+    "url_label": "AP 原文（WRAL 转载）",
+    "alt_urls": [
+      {
+        "label": "AP News 原文（标题：The AI agent boom is here, along with a new set of privacy concerns）",
+        "url": "https://apnews.com/article/meta-muse-openai-dot-ai-privacy-449734d41d3750aad7038b761faa49c9"
+      },
+      {
+        "label": "Yahoo Tech 转载",
+        "url": "https://tech.yahoo.com/ai/meta-ai/articles/ai-agents-only-good-personal-071753597.html"
+      }
+    ],
+    "excerpt_note": "节选自原文开篇的 Muse 卖键盘事件、「智能体越懂你越好用」的论述、多伦多大学教授谈数据收不回，以及结尾「不用智能体也难幸免」（约 450 词；转载页中的直撇号统一为弯撇号）。版权归 The Associated Press 所有，仅供个人学习，完整报道请看原文。",
+    "sections": [
+      [
+        "Matt Robb wanted to sell his computer keyboard. So he made a listing on Facebook Marketplace — and, as an experiment late last month, he put Meta’s new artificial intelligence agent Muse in the driver’s seat.",
+        "Muse got to work. But within a day, Robb got an alarming update: A buyer he didn’t know had shown up outside his house late at night. How? Muse had struck a deal on its own and shared Robb’s home address after agreeing to a pickup. It even sent an automated “Yep, I’m here!” message from his account when the buyer arrived — all without Robb’s knowledge."
+      ],
+      [
+        "Many have welcomed AI agents into their online lives, and raved about how personalized assistants like Muse can handle everyday tasks with ease — from snagging a dinner reservation or planning a trip, to organizing email inboxes. But like other AI bots, the agents are only as good as the information they have access to. They perform better the more they know about a user — and perhaps also that person’s friends, family and even colleagues. That raises privacy concerns.",
+        "Robb and the buyer eventually made amends, and he learned from Meta that the sharing of his address came down to permissions he granted when first giving Muse access to his Marketplace profile. But the episode showed real-world risks that can arise from sharing extensive personal information with the technology.",
+        "“Using an AI agent is similar to handing someone your keys and a to-do list,” said Veronica Rivera, assistant professor at Georgia Tech’s School of Cybersecurity and Privacy. “How helpful they are, and by extension how risky, depends on which keys you hand over.”"
+      ],
+      [
+        "Once AI agents obtain users’ information, it’s very difficult to fully withdraw access, said Ebrahim Bagheri, a professor at the University of Toronto’s Faculty of Information.",
+        "“If you provide access to your credit card to an agent, the agent now immediately has access to all of the historical transactions … they will immediately — within less than seconds — ingest all of that data,” Bagheri said. And while users can later withdraw access, Bagheri said there’s “no taking back” data the agent has already seen, and how developers store historical data can be murky."
+      ],
+      [
+        "Even those who do not join the AI agent boom aren’t necessarily shielded. Consumers who don’t download an AI agent might still interact with others who do. And beyond potential confusion when AI sends messages on behalf of a user, experts warn of ripple effects when it comes to privacy.",
+        "“When your agent reads your inbox or your texts, it’s also reading what your friends and family sent you, even if they never explicitly agreed to that,” Rivera said."
+      ]
+    ]
+  },
+  "notes": [
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "made a listing",
+      "type": "idiom",
+      "head": "make a listing",
+      "zh": "发布（商品）信息、挂出售卖。listing /ˈlɪstɪŋ/ n. 列出的商品/房源条目。动词 list：list a keyboard for sale = 把键盘挂出来卖。"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "as an experiment",
+      "type": "idiom",
+      "head": "as an experiment",
+      "zh": "作为一次试验、试试看。as 表身份/用途。同类：as a test / as a joke。例：I tried the app as an experiment."
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "in the driver’s seat",
+      "type": "idiom",
+      "head": "in the driver’s seat",
+      "zh": "坐在驾驶座上 → 掌控局面、说了算。put sb in the driver’s seat = 让某人（这里是 AI）全权主导。同义 in charge / in control。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "got to work",
+      "type": "idiom",
+      "head": "get to work",
+      "zh": "开始干活、着手工作。Muse got to work = Muse 立刻开工。注意不是「到达工作地点」，后者是 get to work 的字面义，靠语境区分。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "had shown up",
+      "type": "grammar",
+      "head": "过去完成时 + show up",
+      "zh": "买家「已经出现」在他家门外，发生在 Robb got an alarming update 之前，所以用 had shown up。show up = 露面、出现（口语），同义 turn up。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "struck a deal",
+      "type": "idiom",
+      "head": "strike a deal",
+      "zh": "达成交易、谈妥。strike 过去式 struck。可替换：make / cut / reach a deal。例：The two companies struck a deal worth $2 billion."
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "after agreeing to",
+      "type": "grammar",
+      "head": "after + 动名词（省略主语）",
+      "zh": "after agreeing to a pickup = after it had agreed to a pickup。动名词 agreeing 的逻辑主语就是句子主语 Muse。agree to + 名词 = 同意（某安排）。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "pickup",
+      "type": "vocab",
+      "head": "pickup",
+      "zh": "/ˈpɪkʌp/ n. 取货、上门自提；接人。来自 pick up。例：The seller offered free local pickup. 注意动词短语分写 pick up，名词连写 pickup。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "automated",
+      "type": "vocab",
+      "head": "automated",
+      "zh": "/ˈɔːtəmeɪtɪd/ adj. 自动的、自动化的。an automated message = 自动发送的消息。相关：automate v. / automation n.。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "all without Robb’s knowledge",
+      "type": "idiom",
+      "head": "without sb’s knowledge",
+      "zh": "在某人不知情的情况下。破折号后的 all 指前面「成交、给地址、发消息」这一切。反义 with sb’s knowledge / with sb’s consent（经某人同意）。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "raved about",
+      "type": "idiom",
+      "head": "rave about",
+      "zh": "对……赞不绝口、狂赞。rave /reɪv/ 本义「胡言乱语」，引申为「热烈夸赞」。名词 rave review = 好评如潮。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "with ease",
+      "type": "idiom",
+      "head": "with ease",
+      "zh": "轻松地、毫不费力地 = easily。with + 抽象名词 = 副词：with care（小心地）、with confidence（自信地）。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "snagging",
+      "type": "vocab",
+      "head": "snag",
+      "zh": "/snæɡ/ v. （口语）抢到、弄到（难得的东西）。snag a dinner reservation = 订到（难订的）晚餐位。名词 snag 另有「小障碍、意外问题」之意：hit a snag。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "to organizing email inboxes",
+      "type": "grammar",
+      "head": "from A or B, to C 列举范围",
+      "zh": "from snagging … or planning …, to organizing … = 从……到……，列举智能体能做的日常事务；from 和 to 都是介词，后接动名词。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "are only as good as the information they have access to",
+      "type": "grammar",
+      "head": "be only as good as …",
+      "zh": "好坏完全取决于……（……多好，它就多好）。句末 to 不能省：have access to the information → the information (that) they have access to，介词留在从句末尾。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "the more they know about a user",
+      "type": "grammar",
+      "head": "比较级 + the more 后置",
+      "zh": "They perform better the more they know = The more they know, the better they perform「知道得越多，表现越好」。把 the more 从句放在句末，语气更自然。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "That raises privacy concerns",
+      "type": "idiom",
+      "head": "raise concerns",
+      "zh": "引发担忧。raise concerns about sth = 让人担心某事。可替换：spark / prompt / fuel concerns。privacy /ˈpraɪvəsi/ n. 隐私。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "made amends",
+      "type": "idiom",
+      "head": "make amends",
+      "zh": "弥补过失、赔不是、和好。amends /əˈmendz/ 总用复数。make amends for sth = 为某事作补偿。例：He tried to make amends for missing her birthday."
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "came down to",
+      "type": "idiom",
+      "head": "come down to",
+      "zh": "归根结底在于、取决于。the sharing of his address came down to permissions … = 地址被泄露，说到底是因为他授予的权限。例：It all comes down to trust."
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "permissions",
+      "type": "vocab",
+      "head": "permission",
+      "zh": "/pərˈmɪʃən/ n. 许可；（软件）权限，常用复数。grant / revoke permissions = 授予 / 撤销权限。手机弹窗「允许访问通讯录」就是 permission request。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "when first giving Muse access to",
+      "type": "grammar",
+      "head": "when + 分词 / give sb access to",
+      "zh": "when first giving … = when he first gave …，主语相同时可省略主语、用 -ing。give sb access to sth = 让某人能访问某物。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "arise from",
+      "type": "idiom",
+      "head": "arise from",
+      "zh": "由……产生、源于。arise /əˈraɪz/（arose, arisen）。risks that can arise from sharing … = 分享信息可能带来的风险。同义 result from / stem from。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "extensive",
+      "type": "vocab",
+      "head": "extensive",
+      "zh": "/ɪkˈstensɪv/ adj. 大量的、广泛的。extensive personal information = 大量个人信息。例：The storm caused extensive damage."
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "is similar to handing",
+      "type": "grammar",
+      "head": "be similar to + doing",
+      "zh": "to 是介词，后接动名词 handing。主语 Using an AI agent 也是动名词：「用 AI 智能体就像把钥匙和待办清单交给别人」。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "to-do list",
+      "type": "vocab",
+      "head": "to-do list",
+      "zh": "/təˈduː lɪst/ n. 待办事项清单。连字符把 to-do 变成形容词修饰 list。例：Add it to your to-do list."
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "How helpful they are",
+      "type": "grammar",
+      "head": "名词性从句作主语",
+      "zh": "How helpful they are, and … how risky, depends on …：how 从句作主语（陈述语序 they are），谓语用单数 depends。how risky 后省略了 they are。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "by extension",
+      "type": "idiom",
+      "head": "by extension",
+      "zh": "引申开来、由此推及。how helpful they are, and by extension how risky = 有多好用，进而也就有多危险。例：Bad sleep hurts your mood and, by extension, your work."
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "hand over",
+      "type": "idiom",
+      "head": "hand over",
+      "zh": "交出、移交。hand over the keys = 交出钥匙。可拆开：hand the keys over / hand them over（代词必须放中间）。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "obtain",
+      "type": "vocab",
+      "head": "obtain",
+      "zh": "/əbˈteɪn/ v. 获得、取得（较正式）= get。obtain information / permission / a visa。名词少用，形容词 obtainable。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "withdraw access",
+      "type": "idiom",
+      "head": "withdraw access",
+      "zh": "撤回访问权限。withdraw /wɪðˈdrɔː/（withdrew, withdrawn）撤回、收回；也指取款：withdraw cash。同义 revoke access。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "said Ebrahim Bagheri",
+      "type": "grammar",
+      "head": "引述动词倒装",
+      "zh": "间接引语在前时，said 常放到主语前：…, said Ebrahim Bagheri。主语带长同位语（a professor at …）时尤其常见；主语是代词时不倒装：…, he said。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "historical transactions",
+      "type": "vocab",
+      "head": "transaction",
+      "zh": "/trænˈzækʃən/ n. 交易、（一笔）交易记录。historical transactions = 历史交易记录。例：Check your recent transactions in the app."
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "ingest",
+      "type": "vocab",
+      "head": "ingest",
+      "zh": "/ɪnˈdʒest/ v. 摄入（食物）；（数据领域）导入、吸收大量数据。ingest all of that data = 把这些数据全部吞进去。名词 ingestion：data ingestion pipeline。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "while users can later withdraw access",
+      "type": "grammar",
+      "head": "while 表让步",
+      "zh": "while = although「虽然」。虽然用户事后可以撤回权限，但……。while 也可表「同时」或对比，看语境。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "no taking back",
+      "type": "idiom",
+      "head": "there’s no taking back …",
+      "zh": "无法收回……。there is no + doing = 不可能做……：There’s no denying it（无可否认）。take back = 收回（话、东西）。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "data the agent has already seen",
+      "type": "grammar",
+      "head": "省略关系代词",
+      "zh": "= data that the agent has already seen。关系代词在从句中作宾语时可省略。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "how developers store historical data",
+      "type": "grammar",
+      "head": "how 从句作主语",
+      "zh": "how developers store historical data can be murky：how 从句（陈述语序）作主语，谓语 can be。「开发者怎么存储历史数据可能说不清」。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "murky",
+      "type": "vocab",
+      "head": "murky",
+      "zh": "/ˈmɜːrki/ adj. （水）浑浊的；（事情）模糊不清、不透明的。murky rules = 规则含糊。例：The company’s data practices remain murky."
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "Even those who do not join",
+      "type": "grammar",
+      "head": "those who …",
+      "zh": "those who = the people who「那些……的人」。Even those who do not join the AI agent boom = 就连不赶这波智能体热潮的人。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "shielded",
+      "type": "vocab",
+      "head": "shield",
+      "zh": "/ʃiːld/ v. 保护、使免受。be shielded from sth = 免受……。aren’t necessarily shielded = 未必能幸免（部分否定）。名词 shield = 盾牌。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "others who do",
+      "type": "grammar",
+      "head": "助动词 do 替代",
+      "zh": "others who do = others who do download an AI agent。用 do 替代前面的动词短语，避免重复。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "on behalf of",
+      "type": "idiom",
+      "head": "on behalf of",
+      "zh": "代表、替……。AI sends messages on behalf of a user = AI 替用户发消息。常见：on behalf of the team（代表全队）。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "ripple effects",
+      "type": "idiom",
+      "head": "ripple effect",
+      "zh": "涟漪效应、连锁反应。ripple /ˈrɪpəl/ n. 涟漪。例：The layoffs had ripple effects across the town."
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "when it comes to",
+      "type": "idiom",
+      "head": "when it comes to …",
+      "zh": "说到……、在……方面。to 是介词，后接名词或动名词：when it comes to cooking。"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "anchor": "what your friends and family sent you",
+      "type": "grammar",
+      "head": "what 引导宾语从句",
+      "zh": "what = the things that。reading what your friends and family sent you = 读你亲友发给你的内容。"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "anchor": "even if they never",
+      "type": "grammar",
+      "head": "even if 让步",
+      "zh": "即使、哪怕。even if they never … agreed to that = 哪怕他们从没同意过。even if 偏假设，even though 偏事实。"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "anchor": "explicitly",
+      "type": "vocab",
+      "head": "explicitly",
+      "zh": "/ɪkˈsplɪsɪtli/ adv. 明确地、清楚地。explicitly agree = 明确同意。反义 implicitly（含蓄地、默认地）。"
+    }
+  ],
+  "review_words": [
+    {
+      "word": "withdraw",
+      "ipa": "/wɪðˈdrɔː/",
+      "zh": "v. 撤回、收回；取（款）",
+      "example": "Once AI agents obtain users’ information, it’s very difficult to fully withdraw access."
+    },
+    {
+      "word": "ingest",
+      "ipa": "/ɪnˈdʒest/",
+      "zh": "v. 摄入；（大量）导入、吸收数据",
+      "example": "They will immediately — within less than seconds — ingest all of that data."
+    },
+    {
+      "word": "murky",
+      "ipa": "/ˈmɜːrki/",
+      "zh": "adj. 浑浊的；模糊不清、不透明的",
+      "example": "How developers store historical data can be murky."
+    },
+    {
+      "word": "extensive",
+      "ipa": "/ɪkˈstensɪv/",
+      "zh": "adj. 大量的、广泛的",
+      "example": "The episode showed real-world risks that can arise from sharing extensive personal information with the technology."
+    },
+    {
+      "word": "explicitly",
+      "ipa": "/ɪkˈsplɪsɪtli/",
+      "zh": "adv. 明确地、清楚地",
+      "example": "It’s also reading what your friends and family sent you, even if they never explicitly agreed to that."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "A is only as good as B",
+      "zh": "A 的好坏完全取决于 B",
+      "from": "But like other AI bots, the agents are only as good as the information they have access to.",
+      "model": "A translation app is only as good as the data it was trained on.",
+      "model_zh": "翻译软件好不好用，完全取决于训练它的数据。"
+    },
+    {
+      "pattern": "A does X better the more B …",
+      "zh": "B 越……，A 就做得越好（the more 从句后置）",
+      "from": "They perform better the more they know about a user — and perhaps also that person’s friends, family and even colleagues.",
+      "model": "Music apps get better at recommending songs the more you listen.",
+      "model_zh": "你听得越多，音乐 App 推荐歌曲就越准。"
+    },
+    {
+      "pattern": "Doing A is similar to doing B. How …, and by extension how …, depends on …",
+      "zh": "做 A 就像做 B；有多……、进而有多……，取决于……",
+      "from": "“Using an AI agent is similar to handing someone your keys and a to-do list,” said Veronica Rivera, assistant professor at Georgia Tech’s School of Cybersecurity and Privacy. “How helpful they are, and by extension how risky, depends on which keys you hand over.”",
+      "model": "Learning a language is similar to building a house. How fast you progress, and by extension how far you go, depends on the foundation you lay.",
+      "model_zh": "学语言就像盖房子：进步多快、进而能走多远，取决于你打下的地基。"
+    }
+  ],
+  "podcast": {
+    "show": "Hard Fork (The New York Times)",
+    "title": "A.I. Agents: Cute, Cuddly and Maybe Catastrophically Dangerous?",
+    "date": "2026-10-02",
+    "url": "https://podcasts.apple.com/us/podcast/a-i-agents-cute-cuddly-and-maybe/id1528594034?i=1000792744626",
+    "zh": "《纽约时报》科技播客 Hard Fork 第 215 期：在 OpenAI 推出 dots、Meta 推出 Muse 之际，和 NYT 记者 Mike Isaac、Erin Griffith、Eli Tan 聊 AI 智能体为何比以往更有变革性也更危险，以及「把生活交给 Meta 的 Muse」是什么体验。正好是今天文章里 Muse / dots 的背景，适合泛听抓 agent / access / permission / rogue 这类词。"
+  },
+  "audio": {
+    "normal": "audio.mp3",
+    "slow": "audio-slow.mp3",
+    "voice": "en-US-AriaNeural"
+  }
+}
