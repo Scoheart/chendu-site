@@ -18,6 +18,11 @@ tools/deploy_payload.py prints the files array for the Vercel connector's create
 tools/deployed-shas.json  sha1s of source files already stored on Vercel (managed by deploy_payload --mark)
 tools/fonts/            source fonts (Ma Shan Zheng, Caveat; from github.com/google/fonts; not deployed)
 vercel.json             build/output config, cleanUrls, trailingSlash, cache headers
+assets/sync.js          optional account login + sync of reader data (see 「账号与同步」 below)
+api/                    Vercel Functions: auth/register, auth/login, auth/logout, auth/me, sync
+lib/                    shared server code (db, auth, validation); not a function
+db/schema.sql           database schema; scripts/migrate.mjs applies it
+scripts/                migrate.mjs, dev-server.mjs (local harness), test-api.mjs, e2e-sync.cjs
 ```
 
 ## Reader features (shared, in `assets/issue.js` + `assets/style.css`)
@@ -35,6 +40,64 @@ These live entirely in the shared assets and the `tools/build.py` template, so e
 - **Recall checklist (批注回顾):** at the end of every issue, one checkbox row per margin note, in reading order. Each row shows the note number (a link back to that highlight), the type tag (词汇 / 语法 / 地道表达) and the note head. The Chinese gloss stays hidden until the row is hovered (mouse) or tapped. Checked items persist per issue; 「清空勾选」 clears them and offers 撤销. Print shows every gloss and hides the hint and the reset button.
   - Storage: `localStorage["chendu:recall:<issue date>"] = {v:1, done:["<note head>", …]}`. Heads are unique within an issue, so a later renumber still matches. A head that no longer exists is ignored.
 - **Asset versioning:** `vercel.json` serves `/assets/*` with `max-age=86400`, so `build.py` writes every asset URL with a content hash (`style.css?v=<sha1[:10]>`). Without the hash, returning visitors get the new HTML (which is `must-revalidate`) together with up-to-a-day-old cached CSS/JS. Always rebuild after editing anything in `assets/`.
+
+## 账号与同步（可选）
+
+不登录时网站和以前完全一样：笔记、翻译、回顾勾选都只存在浏览器的 localStorage 里。页面右上角多了一个小小的「登录 · 同步笔记」入口；如果部署里没有 `/api`（比如纯静态托管），这个入口不会出现。
+
+登录后：
+
+- 三类数据（`chendu:notes:<日期>`、`chendu:tr:<日期>`、`chendu:recall:<日期>`）会同步到账号，换一台设备登录也能看到。
+- **第一次登录时**，这台设备上已有的内容会和账号里的内容合并，两边都保留。
+- localStorage 仍然是工作副本：页面先用本机数据显示，再在后台拉取和合并；改动会在停顿约 1 秒后上传。
+- 离线或上传失败时改动留在本机（右上角圆点变橙红），联网、切回页面或下次打开时自动补传，不会丢。
+- 两台设备同时改：逐条合并（以上次同步的版本为基准做三方合并）。同一段翻译或同一条笔记在两边都改了，会把两个版本都留下，中间用「——」隔开；在一台设备上删除的笔记，另一台同步后也会删除。
+- 「退出登录」会保留本机数据，只是不再同步；「退出并清除本机笔记」适合公共电脑，账号里的数据不受影响。
+
+### 实现
+
+- 前端：`assets/sync.js`（不依赖任何库）。`assets/issue.js` 每次保存后调用 `ChenduSync.touch(key)`，并在收到 `chendu:sync` 事件时重新读取该 key（和其他标签页改动的处理方式相同）。
+- 后端：`api/` 下 5 个 Node Vercel Functions，用 `@neondatabase/serverless` 连接 Neon Postgres（本地连普通 Postgres 时自动改用 `pg`）。
+- 账号：邮箱 + 密码。密码用 Node 内置的 scrypt 哈希（随机盐，参数随哈希一起保存），不自己写加密算法。登录后发一个 32 字节随机 token，放在 `HttpOnly; Secure; SameSite=Lax` 的 cookie 里，有效期 30 天；数据库只存 token 的 SHA-256。
+- 安全：每个 SQL 都按当前会话的 `user_id` 过滤，账号之间互相看不到。写接口检查 `Origin`，并要求 `Content-Type: application/json`。key 必须匹配 `chendu:(notes|tr|recall):YYYY-MM-DD`，单条数据不超过 256 KB。登录/注册有限流：同一 IP 15 分钟内最多 30 次尝试，同一邮箱 15 分钟内最多失败 10 次，同一 IP 每小时最多注册 5 个账号。
+- 写入是按 `rev` 的比较并交换（CAS）：版本不一致时服务器返回最新内容，由前端合并后重试。
+
+### 第一次配置（在 Vercel 上做一次）
+
+1. **建数据库**：打开 Vercel 项目 → **Storage** → **Create Database** → 选 **Neon**（Marketplace，Serverless Postgres，有免费档）→ 选区域（离读者近的，比如 Singapore / Tokyo）→ 连接到这个项目的 Production / Preview / Development 环境。Vercel 会自动加上 `DATABASE_URL` 等环境变量。
+2. **环境变量**：只需要 `DATABASE_URL`（Neon 集成会自动加；也认 `POSTGRES_URL`）。不需要其他密钥。
+3. **建表**（只需一次，以后重复跑也没关系）：
+   ```bash
+   npm install
+   vercel env pull .env.local          # 或者从 Neon 控制台复制连接串
+   DATABASE_URL="postgres://…" npm run db:migrate
+   ```
+   也可以把 `db/schema.sql` 粘到 Neon 控制台的 SQL Editor 里执行。
+4. **部署**：
+   - 用 Vercel 连 GitHub 仓库自动部署的话，推到 main 即可：Vercel 会先 `npm install`，再跑 `tools/vercel-build.sh`，`api/` 里的函数会自动部署。
+   - 用下面「Deployment」里的 MCP 连接器部署的话：`tools/deploy_payload.py` 已经把 `package.json`、`package-lock.json`、`assets/sync.js`、`api/**`、`lib/*`、`db/schema.sql` 加进上传列表，照常执行即可。
+5. 打开网站，点右上角「登录 · 同步笔记」注册一个账号试试。
+
+### 本地测试
+
+```bash
+# 需要一个本地 Postgres
+createdb chendu
+export DATABASE_URL=postgres://user:pass@localhost:5432/chendu
+npm install && npm run db:migrate
+python3 tools/build.py                 # 生成 HTML
+npm run dev:local                      # http://localhost:3000，静态页面 + /api
+npm run test:api                       # 另开一个终端：接口测试（注册、登录、限流、隔离、CAS）
+node scripts/e2e-sync.cjs              # 可选：浏览器端到端测试（需要 playwright）
+```
+
+也可以用 `vercel dev`（需要先 `vercel link`）。
+
+### 已知限制
+
+- 没有邮箱验证，也没有「忘记密码」：忘了密码只能在数据库里删掉这个账号重新注册（数据会一起删掉）。
+- 一个浏览器里先后登录两个不同账号时，第二个账号会合并进本机现有的数据。共用电脑请用「退出并清除本机笔记」。
+- 合并以条目为单位，不是逐字合并；两边改了同一条时两个版本都会留下，需要手动删掉一个。
 
 ## Daily routine
 

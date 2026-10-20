@@ -1,0 +1,15 @@
+{
+  "name": "chendu-site",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "db:migrate": "node scripts/migrate.mjs",
+    "dev:local": "node scripts/dev-server.mjs",
+    "test:api": "node scripts/test-api.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "pg": "^8.13.0"
+  }
+}

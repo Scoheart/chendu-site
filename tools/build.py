@@ -444,6 +444,7 @@ def render_issue(d, prev_d, next_d):
 </div>
 </main>
 <footer class="foot">{SITE_NAME} · 中文讲解为原创学习笔记；英文原文版权归原作者及媒体所有</footer>
+<script src="{asset_url('../../', 'sync.js')}" defer></script>
 <script src="{asset_url('../../', 'issue.js')}" defer></script>
 </body>
 </html>
@@ -480,6 +481,7 @@ def render_index(issues):
 <section class="archive"><h2 class="hand-zh">往期</h2><ul>{rows}</ul></section>
 </main>
 <footer class="foot">{SITE_NAME} · 英文原文版权归原作者及媒体所有，本站仅节选用于个人学习</footer>
+<script src="{asset_url('', 'sync.js')}" defer></script>
 </body>
 </html>
 """

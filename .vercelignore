@@ -3,3 +3,7 @@ public/
 README.md
 _preview-*.png
 .vercel
+node_modules/
+scripts/dev-server.mjs
+scripts/test-api.mjs
+scripts/e2e-sync.cjs

@@ -7,3 +7,4 @@ _preview*.png
 *.bak
 *backup*
 .env*
+node_modules/

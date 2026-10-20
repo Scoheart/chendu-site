@@ -33,6 +33,14 @@
     return null;
   }
 
+  // Account sync (assets/sync.js) is optional: tell it about local saves, and re-read
+  // a key when it merges server data in. Same handling as a change from another tab.
+  function synced(key){ if(window.ChenduSync) window.ChenduSync.touch(key); return true; }
+  function onExternal(key, fn){
+    window.addEventListener('storage', function(e){ if(e.key === key) fn(); });
+    window.addEventListener('chendu:sync', function(e){ if(e.detail && e.detail.key === key) fn(); });
+  }
+
   function el(tag, cls, text){
     var e = document.createElement(tag);
     if(cls) e.className = cls;
@@ -161,10 +169,10 @@
     }catch(e){ return []; }
   }
   function save(){
-    try{ localStorage.setItem(KEY, JSON.stringify({v:1, notes:notes})); return true; }
+    try{ localStorage.setItem(KEY, JSON.stringify({v:1, notes:notes})); return synced(KEY); }
     catch(e){ toast('浏览器禁止了本地存储，笔记无法保存'); return false; }
   }
-  window.addEventListener('storage', function(e){ if(e.key === KEY){ notes = load(); render(); } });
+  onExternal(KEY, function(){ notes = load(); render(); });
 
   // blocks joined by "\n"; superscript numbers/markers are excluded.
   // Paragraph notes keep indexing only the article paragraphs, so older saved notes still resolve.
@@ -603,7 +611,7 @@
       var text = trText[i].trim();
       if(text) items.push({i:i, key:paraKey(p), text:text, updated:Date.now()});
     });
-    try{ localStorage.setItem(TRKEY, JSON.stringify({v:1, items:items})); return true; }
+    try{ localStorage.setItem(TRKEY, JSON.stringify({v:1, items:items})); return synced(TRKEY); }
     catch(e){ toast('浏览器禁止了本地存储，翻译无法保存'); return false; }
   }
   function trAssign(items){
@@ -688,8 +696,7 @@
     paint(false);
     return box;
   }
-  window.addEventListener('storage', function(e){
-    if(e.key !== TRKEY) return;
+  onExternal(TRKEY, function(){
     trText = trAssign(trLoad());
     paras.forEach(function(p, i){
       var box = p.parentNode.querySelector('.para-tr');
@@ -724,7 +731,7 @@
       }catch(e){ return []; }
     }
     function recallSave(done){
-      try{ localStorage.setItem(RKEY, JSON.stringify({v:1, done:done})); return true; }
+      try{ localStorage.setItem(RKEY, JSON.stringify({v:1, done:done})); return synced(RKEY); }
       catch(e){ toast('浏览器禁止了本地存储，勾选无法保存'); return false; }
     }
     function recallCollect(){
@@ -786,7 +793,7 @@
       recallApply();
       toast('已清空勾选', '撤销', function(){ if(recallSave(prev)) recallApply(); });
     });
-    window.addEventListener('storage', function(e){ if(e.key === RKEY) recallApply(); });
+    onExternal(RKEY, recallApply);
     recallApply();
   }
 })();

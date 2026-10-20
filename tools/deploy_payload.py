@@ -18,8 +18,11 @@ MANIFEST = ROOT / "tools" / "deployed-shas.json"
 
 
 def sources():
-    fixed = ["vercel.json", "tools/build.py", "tools/vercel-build.sh", "assets/style.css", "assets/issue.js"]
-    return fixed + sorted(str(p.relative_to(ROOT)) for p in ROOT.glob("issues/*/data.json"))
+    fixed = ["vercel.json", "tools/build.py", "tools/vercel-build.sh", "assets/style.css", "assets/issue.js",
+             "assets/sync.js", "package.json", "package-lock.json", "db/schema.sql", "scripts/migrate.mjs"]
+    # account / sync backend: Vercel Functions in api/ plus their shared code in lib/
+    backend = sorted(str(p.relative_to(ROOT)) for p in [*ROOT.glob("api/**/*.js"), *ROOT.glob("lib/*.js")])
+    return fixed + backend + sorted(str(p.relative_to(ROOT)) for p in ROOT.glob("issues/*/data.json"))
 
 
 def main():
