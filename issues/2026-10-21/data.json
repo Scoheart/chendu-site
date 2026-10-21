@@ -1,0 +1,531 @@
+{
+  "date": "2026-10-21",
+  "topic": "stocks",
+  "topic_label": "美股",
+  "issue_title_zh": "财报给力、油价回落：道指大涨 1%，AI 股仍在震荡",
+  "lead_zh": "今天读美联社商业记者 Stan Choe 的收盘报道（美东 10 月 20 日周二）。Equifax、孩之宝、3M 等财报好于预期，布伦特原油从逼近 112 美元回落到 108.79 美元，标普 500 涨 0.3%、道指涨 1%；通用汽车利润超预期却因全年指引不及预期大跌 6.8%；AI 股因高利率可能拖累借贷买芯片而继续震荡，纳指微跌。重点看：ease back / rally / hit records / get a lift / yo-yo / keep in check / fall short of / give way to 这类财经表达。",
+  "article": {
+    "title": "Most US stocks rise following strong profit reports from Equifax, Hasbro and other big companies",
+    "author": "Stan Choe",
+    "source": "The Associated Press",
+    "published": "2026-10-20 16:50 EDT（北京时间 10 月 21 日 04:50；WTOP 转载页时间）",
+    "url": "https://wtop.com/world/2026/10/asian-shares-mostly-decline-after-ai-stocks-lead-a-rebound-on-wall-street/",
+    "url_label": "AP 原文（WTOP 转载）",
+    "alt_urls": [
+      {
+        "label": "AP News 原文",
+        "url": "https://apnews.com/article/stock-markets-oil-ai-rates-inflation-b972b64127db5412a2b02c35ecf95c88"
+      },
+      {
+        "label": "WRAL 转载",
+        "url": "https://www.wral.com/news/ap/b972b-asian-shares-mostly-decline-after-ai-stocks-lead-a-rebound-on-wall-street/"
+      }
+    ],
+    "excerpt_note": "节选自原文开篇至油价一段、通用汽车两段与 AI 股一段（约 440 词，略去航空股、Braze、CoreWeave 及海外市场等段落）。版权归 The Associated Press 所有，仅供个人学习，完整报道请看原文。",
+    "sections": [
+      [
+        "NEW YORK (AP) — Most of the U.S. stock market rose Tuesday following strong profit reports from Equifax, Hasbro and other companies, while oil prices eased back after nearing their highest levels since the war with Iran began.",
+        "The S&P 500 added 0.3%. The Dow Jones Industrial Average rallied 529 points, or 1%, while more swings for stocks in the artificial-intelligence industry sent the Nasdaq composite to a modest loss of less than 0.1%.",
+        "Stock prices tend to follow the path of corporate profits over the long term, and several companies delivered results for the latest quarter that were better than analysts expected. Big expectations for growth generally are what have allowed the U.S. stock market to hit records recently despite worries about high inflation, higher interest rates and other challenges weighing on Wall Street.",
+        "Equifax rallied 11.3% for one of the market’s biggest gains after reporting a bigger profit for the summer than analysts expected, despite high mortgage rates slowing some parts of its business.",
+        "Hasbro climbed 11.2% after the toy company said its “Magic: The Gathering” game made more than $600 million in revenue during a quarter for the first time. 3M rose 5.8% after the company behind Ace bandages and Scotch-Brite sponges likewise reported a stronger-than-expected profit, even as shoppers broadly feel discouraged by high inflation.",
+        "Stocks got a lift after the price for a barrel of Brent crude erased an early gain to fall 0.7% to $108.79. Earlier in the morning, it got near $112 and approached its highest price since the war with Iran began in late February.",
+        "The drop in oil prices will relieve some of the pressure on inflation, if it lasts. Brent’s price has been yo-yoing between $97 and $112 per barrel this month on uncertainty about when the energy industry will return to normal."
+      ],
+      [
+        "Keeping the market in check was General Motors, which sank 6.8% despite reporting a bigger profit than analysts expected. It also announced a program to send up to $20 billion to investors by buying back its stock.",
+        "The pressure is on companies to deliver bigger profits not only now, but also in the future. GM gave a forecasted range for profit over the full year of 2026 whose midpoint fell short of analysts’ expectations.",
+        "AI stocks, meanwhile, continued to swirl. They’ve been at the center of the market’s recent uneasiness, as euphoria around the technology’s boom gives way to worries that high interest rates in the bond market will slow the borrowing that’s allowed companies to buy so many AI chips. Last week was the U.S. stock market’s worst since June because of weakness for AI-related companies."
+      ]
+    ]
+  },
+  "notes": [
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "following strong profit reports",
+      "type": "grammar",
+      "head": "following 作介词",
+      "zh": "following 在这里是介词，= after（在……之后、由于……）：「在强劲的利润报告公布之后」。新闻里常用 following the announcement / following the news。profit report = 利润报告，即财报。"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "eased back",
+      "type": "idiom",
+      "head": "ease back",
+      "zh": "（价格）回落、小幅回调。oil prices eased back = 油价回落。ease = 缓和、放松；back 表示回到原来的水平。同义 pull back / retreat。例：Bond yields eased back after the data."
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "after nearing their highest levels since",
+      "type": "grammar",
+      "head": "after + doing；near 作动词",
+      "zh": "after nearing … = after they neared …，介词 after 后接动名词，省略了主语（与主句的 oil prices 一致）。near 在这里是动词「接近」：near a record = 逼近纪录。since the war with Iran began = 自对伊朗战争开始以来。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "rallied",
+      "type": "vocab",
+      "head": "rally",
+      "zh": "/ˈræli/ v./n. （股市）反弹、大涨。The Dow rallied 529 points = 道指大涨 529 点。名词：a relief rally（解脱性反弹）。例：Stocks rallied after the Fed held rates steady."
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "sent the Nasdaq composite to a modest loss",
+      "type": "idiom",
+      "head": "send sth to …",
+      "zh": "使……落到（某种状态）。sent the Nasdaq to a modest loss = 让纳指小幅收跌。modest /ˈmɑːdɪst/ adj. 不大的、温和的：a modest gain / loss = 小涨 / 小跌。同类：send stocks higher / lower。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "follow the path of",
+      "type": "idiom",
+      "head": "follow the path of",
+      "zh": "沿着……的路径走，即「跟随……的走势」。Stock prices tend to follow the path of corporate profits = 股价往往跟随企业利润走。tend to do = 往往、倾向于。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "over the long term",
+      "type": "idiom",
+      "head": "over the long term",
+      "zh": "从长期来看。反义 in the short term（短期内）。投资常说 over the long run 同义。例：Over the long term, stocks have beaten bonds."
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "better than analysts expected",
+      "type": "grammar",
+      "head": "比较状语从句",
+      "zh": "better than analysts expected = 比分析师预期的好。than 后面是从句（analysts expected），expected 后省略了宾语。财报常说 beat expectations / better than expected / missed estimates。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "Big expectations for growth generally are what have allowed",
+      "type": "grammar",
+      "head": "what 引导表语从句",
+      "zh": "主语 Big expectations for growth，系动词 are，what have allowed … 是表语从句：「对增长的高预期，正是让美股……的原因」。what = the thing(s) that。allow sb/sth to do = 使……得以。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "hit records",
+      "type": "idiom",
+      "head": "hit records / a record",
+      "zh": "创纪录。the stock market hit records = 股市屡创新高。同义 set a record / hit an all-time high。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "challenges weighing on Wall Street",
+      "type": "grammar",
+      "head": "现在分词后置定语",
+      "zh": "weighing on Wall Street 修饰 challenges = challenges that are weighing on Wall Street：「压在华尔街身上的挑战」。weigh on = 拖累、压制。"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "anchor": "for one of the market’s biggest gains",
+      "type": "grammar",
+      "head": "for 表「算作、成为」",
+      "zh": "Equifax rallied 11.3% for one of the market’s biggest gains = 大涨 11.3%，成为市场涨幅最大的股票之一。for 引出结果/归类。one of the + 最高级 + 复数名词。"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "anchor": "mortgage rates",
+      "type": "vocab",
+      "head": "mortgage",
+      "zh": "/ˈmɔːrɡɪdʒ/ n. 抵押贷款、房贷。注意 t 不发音。mortgage rates = 房贷利率。Equifax 是征信公司，房贷申请少了，征信查询业务也会放缓。"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "anchor": "slowing some parts of its business",
+      "type": "grammar",
+      "head": "despite + 名词 + 现在分词",
+      "zh": "despite 是介词，后接复合结构 high mortgage rates slowing …（高房贷利率拖慢……），名词是逻辑主语，现在分词是逻辑谓语。= although high mortgage rates slowed …。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "in revenue",
+      "type": "vocab",
+      "head": "revenue",
+      "zh": "/ˈrevənuː/ n. 收入、营收。made more than $600 million in revenue = 营收超过 6 亿美元。区分 revenue（营收，未扣成本）和 profit（利润）。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "the company behind Ace bandages and Scotch-Brite sponges",
+      "type": "idiom",
+      "head": "the company behind …",
+      "zh": "……背后的公司，即「……的生产商/品牌方」。新闻用产品让读者认出公司：3M 就是做 Ace 弹力绷带和思高（Scotch-Brite）百洁布的公司。例：the company behind ChatGPT。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "likewise",
+      "type": "vocab",
+      "head": "likewise",
+      "zh": "/ˈlaɪkwaɪz/ adv. 同样地、也。3M likewise reported a stronger-than-expected profit = 3M 同样交出了好于预期的利润。同义 similarly / also。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "stronger-than-expected",
+      "type": "grammar",
+      "head": "连字符复合形容词",
+      "zh": "stronger-than-expected profit = 好于预期的利润。用连字符把一个短语变成前置形容词。财经常见：better-than-expected / weaker-than-expected / long-awaited。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "even as shoppers broadly feel discouraged",
+      "type": "grammar",
+      "head": "even as 让步",
+      "zh": "even as = even though / while，「尽管、即便在……的同时」。强调两件事同时发生且形成反差：利润好于预期，而消费者普遍情绪低落。discouraged /dɪsˈkɜːrɪdʒd/ adj. 灰心的。"
+    },
+    {
+      "p": [
+        0,
+        5
+      ],
+      "anchor": "got a lift",
+      "type": "idiom",
+      "head": "get a lift",
+      "zh": "得到提振。Stocks got a lift = 股市获得提振。lift n. 提升。也说 give stocks a lift（提振股市）、a boost。"
+    },
+    {
+      "p": [
+        0,
+        5
+      ],
+      "anchor": "a barrel of Brent crude",
+      "type": "vocab",
+      "head": "barrel / Brent crude",
+      "zh": "barrel /ˈbærəl/ n. 桶（石油计量单位，约 159 升）。Brent crude = 布伦特原油，国际油价基准；美国基准是 WTI。crude /kruːd/ = 原油（crude oil）。"
+    },
+    {
+      "p": [
+        0,
+        5
+      ],
+      "anchor": "erased an early gain",
+      "type": "idiom",
+      "head": "erase a gain",
+      "zh": "抹去（早盘）涨幅。erased an early gain to fall 0.7% = 回吐早盘涨幅，转跌 0.7%。to fall 是表结果的不定式。反义 erase losses（收复跌幅）。"
+    },
+    {
+      "p": [
+        0,
+        6
+      ],
+      "anchor": "relieve some of the pressure on inflation",
+      "type": "vocab",
+      "head": "relieve",
+      "zh": "/rɪˈliːv/ v. 缓解、减轻。relieve pressure = 减压。名词 relief：a relief rally。油价下跌会减轻通胀压力。"
+    },
+    {
+      "p": [
+        0,
+        6
+      ],
+      "anchor": "if it lasts",
+      "type": "grammar",
+      "head": "条件状语后置",
+      "zh": "if it lasts = 如果（油价下跌）能持续的话。放在句尾表示补充条件、带保留语气。last v. 持续。类似 if it holds / if that continues。"
+    },
+    {
+      "p": [
+        0,
+        6
+      ],
+      "anchor": "yo-yoing",
+      "type": "vocab",
+      "head": "yo-yo",
+      "zh": "/ˈjoʊjoʊ/ v. 像溜溜球一样上下波动。Brent’s price has been yo-yoing between $97 and $112 = 布油价格在 97 到 112 美元之间来回震荡。现在完成进行时表示「这个月一直在……」。同义 swing / seesaw。"
+    },
+    {
+      "p": [
+        0,
+        6
+      ],
+      "anchor": "on uncertainty about",
+      "type": "grammar",
+      "head": "on 表原因",
+      "zh": "on uncertainty about … = 由于对……的不确定性。财经新闻常用 on 表原因：Stocks fell on recession fears. Oil rose on supply worries。"
+    },
+    {
+      "p": [
+        0,
+        6
+      ],
+      "anchor": "return to normal",
+      "type": "idiom",
+      "head": "return to normal",
+      "zh": "恢复正常。when the energy industry will return to normal = 能源行业何时恢复常态。是 about 后面的宾语从句，用陈述语序。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "Keeping the market in check was General Motors",
+      "type": "grammar",
+      "head": "倒装：分词短语 + was + 主语",
+      "zh": "正常语序：General Motors was keeping the market in check。把分词短语提前、主语后置，强调「拖住大盘的是通用汽车」。keep sth in check = 控制、抑制（这里指限制涨幅）。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "sank",
+      "type": "vocab",
+      "head": "sink",
+      "zh": "/sɪŋk/ v. 下沉；（股价）大跌。sink-sank-sunk。GM sank 6.8% = 通用汽车大跌 6.8%。同类：tumble / slide / drop。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "despite reporting a bigger profit",
+      "type": "grammar",
+      "head": "despite + doing",
+      "zh": "despite 是介词，后接动名词 reporting（不能接从句；接从句要用 although）。「尽管公布的利润高于预期」。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "buying back its stock",
+      "type": "vocab",
+      "head": "buy back / buyback",
+      "zh": "回购（股票）。send up to $20 billion to investors by buying back its stock = 通过回购股票向投资者返还最多 200 亿美元。名词 buyback：a $20 billion buyback。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "The pressure is on companies to deliver",
+      "type": "idiom",
+      "head": "the pressure is on sb to do",
+      "zh": "某人面临要……的压力。The pressure is on companies to deliver bigger profits = 企业面临交出更多利润的压力。deliver = 兑现、交出（成绩）。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "not only now, but also in the future",
+      "type": "grammar",
+      "head": "not only … but also …",
+      "zh": "不仅……而且……，连接两个时间状语 now 和 in the future。强调市场不仅看当期业绩，也看未来指引（guidance）。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "whose midpoint",
+      "type": "grammar",
+      "head": "whose 定语从句",
+      "zh": "whose midpoint fell short of … 修饰 a forecasted range：「（全年利润预测区间）其中值低于分析师预期」。whose 可指物，= of which。midpoint n. 中值。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "fell short of",
+      "type": "idiom",
+      "head": "fall short of",
+      "zh": "未达到、不及（预期、目标）。fell short of analysts’ expectations = 不及分析师预期。同义 miss。反义 beat / exceed expectations。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "continued to swirl",
+      "type": "vocab",
+      "head": "swirl",
+      "zh": "/swɜːrl/ v. 打旋、翻腾。AI stocks continued to swirl = AI 股继续剧烈震荡、方向不明。比喻股价像漩涡一样来回打转。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "at the center of",
+      "type": "idiom",
+      "head": "at the center of",
+      "zh": "处于……的中心、是……的焦点。at the center of the market’s recent uneasiness = 是近期市场不安的核心。uneasiness /ʌnˈiːzinəs/ n. 不安、忧虑。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "euphoria",
+      "type": "vocab",
+      "head": "euphoria",
+      "zh": "/juːˈfɔːriə/ n. 狂热、极度兴奋。euphoria around the technology’s boom = 围绕 AI 繁荣的狂热情绪。形容词 euphoric。股市常说 market euphoria（市场亢奋）。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "gives way to",
+      "type": "idiom",
+      "head": "give way to",
+      "zh": "让位于、被……取代。euphoria … gives way to worries = 狂热让位于担忧。例：Optimism gave way to fear as prices fell."
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "worries that high interest rates",
+      "type": "grammar",
+      "head": "同位语从句",
+      "zh": "that high interest rates … will slow the borrowing … 解释 worries 的内容：「担心债市高利率会拖慢借贷」。同位语从句的 that 不作成分，不能省略。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "that’s allowed companies to buy",
+      "type": "grammar",
+      "head": "that’s = that has（定语从句）",
+      "zh": "that’s allowed … 修饰 the borrowing，that’s 是 that has 的缩写（后接过去分词 allowed，构成现在完成时）。「让企业得以买下这么多 AI 芯片的借贷」。"
+    },
+    {
+      "p": [
+        1,
+        2
+      ],
+      "anchor": "the U.S. stock market’s worst since June",
+      "type": "grammar",
+      "head": "最高级后省略名词",
+      "zh": "the stock market’s worst (week) since June = 美股自 6 月以来最糟糕的一周。前文有 Last week，所以省略 week。since 表「自……以来」。"
+    }
+  ],
+  "review_words": [
+    {
+      "word": "rally",
+      "ipa": "/ˈræli/",
+      "zh": "v./n. （股市）反弹、大涨",
+      "example": "The Dow Jones Industrial Average rallied 529 points, or 1%."
+    },
+    {
+      "word": "mortgage",
+      "ipa": "/ˈmɔːrɡɪdʒ/",
+      "zh": "n. 抵押贷款、房贷",
+      "example": "Equifax rallied 11.3% after reporting a bigger profit for the summer than analysts expected, despite high mortgage rates slowing some parts of its business."
+    },
+    {
+      "word": "relieve",
+      "ipa": "/rɪˈliːv/",
+      "zh": "v. 缓解、减轻",
+      "example": "The drop in oil prices will relieve some of the pressure on inflation, if it lasts."
+    },
+    {
+      "word": "euphoria",
+      "ipa": "/juːˈfɔːriə/",
+      "zh": "n. 狂热、极度兴奋",
+      "example": "They’ve been at the center of the market’s recent uneasiness, as euphoria around the technology’s boom gives way to worries."
+    },
+    {
+      "word": "swirl",
+      "ipa": "/swɜːrl/",
+      "zh": "v. 打旋；（价格）剧烈震荡",
+      "example": "AI stocks, meanwhile, continued to swirl."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "A is/are what has/have allowed B to do C despite D",
+      "zh": "正是 A 让 B 得以做 C，尽管有 D（what 表语从句强调原因）",
+      "from": "Big expectations for growth generally are what have allowed the U.S. stock market to hit records recently despite worries about high inflation, higher interest rates and other challenges weighing on Wall Street.",
+      "model": "Strong demand for AI chips is what has allowed the company to keep raising prices despite worries about a slowing economy.",
+      "model_zh": "正是对 AI 芯片的强劲需求，让这家公司在经济放缓的担忧下仍能不断提价。"
+    },
+    {
+      "pattern": "Keeping A in check was B, which …",
+      "zh": "拖住 A 的是 B，它……（倒装强调）",
+      "from": "Keeping the market in check was General Motors, which sank 6.8% despite reporting a bigger profit than analysts expected.",
+      "model": "Keeping the rally in check was Apple, which slipped 2% despite reporting record iPhone sales.",
+      "model_zh": "拖住涨势的是苹果，尽管 iPhone 销量创纪录，其股价仍下跌 2%。"
+    },
+    {
+      "pattern": "The pressure is on A to do B not only now, but also in the future",
+      "zh": "A 面临的压力是：不仅现在要做到 B，将来也要做到",
+      "from": "The pressure is on companies to deliver bigger profits not only now, but also in the future.",
+      "model": "The pressure is on the new CEO to cut costs not only this year, but also over the next decade.",
+      "model_zh": "新 CEO 面临的压力是：不仅今年要削减成本，未来十年也要做到。"
+    }
+  ],
+  "podcast": {
+    "show": "WSJ Minute Briefing (The Wall Street Journal)",
+    "title": "Stocks Trade Higher After Report on U.S.-Iran Diplomacy",
+    "date": "2026-10-20",
+    "url": "https://podcasts.apple.com/us/podcast/stocks-trade-higher-after-report-on-u-s-iran-diplomacy/id1202441485?i=1000797325031",
+    "zh": "《华尔街日报》每日简报播客 WSJ Minute Briefing 美东 10 月 20 日收盘版（约 2 分钟，Pierre Bienaimé 主持）：美股收高、布伦特原油跌破每桶 109 美元，以及 SpaceX 第二份上市财报营收 146 亿美元、同比翻倍以上。正好对应今天文章的同一个交易日，适合泛听抓 stocks / Brent crude / earnings / revenue 这类词。"
+  },
+  "audio": {
+    "normal": "audio.mp3",
+    "slow": "audio-slow.mp3",
+    "voice": "en-US-AriaNeural"
+  }
+}
