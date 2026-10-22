@@ -1,0 +1,683 @@
+{
+  "date": "2026-10-22",
+  "topic": "ai",
+  "topic_label": "AI",
+  "issue_title_zh": "AI 揪出 PHP 致命漏洞：全球网站紧急下线打补丁",
+  "lead_zh": "今天读美联社科技记者 Barbara Ortutay 的报道（美东 10 月 21 日周三）。AI 智能体在支撑约七成网站的编程语言 PHP 里发现了两个「严重漏洞」，可被远程执行代码；FBI 建议来不及升级就先下线，欧美多国政府网站临时关闭。OpenAI 牵头联合研究人员协助修复，称这是「近年来影响最大的安全问题之一」，并预计类似发现会急剧增多。专家说这里有个悖论：AI 越会找漏洞，越要想清楚漏洞暴露之后怎么办。重点看：take sth offline / scramble to / malicious actors / a host of / in recent memory / The lesson isn’t that … It’s that … 这类表达。",
+  "article": {
+    "title": "Some websites go dark as operators address an AI-detected flaw in a web programming language",
+    "author": "Barbara Ortutay",
+    "source": "The Associated Press",
+    "published": "2026-10-21 16:08 EDT（北京时间 10 月 22 日 04:08；Los Angeles Times 转载页时间）",
+    "url": "https://www.latimes.com/business/story/2026-10-21/some-websites-go-dark-as-operators-address-ai-detected-flaw-in-web-programming-language",
+    "url_label": "AP 原文（Los Angeles Times 转载）",
+    "alt_urls": [
+      {
+        "label": "AP News 原文（标题：FBI and NSA warn of vulnerabilities in PHP web programming language）",
+        "url": "https://apnews.com/article/php-websites-fbi-europe-vulnerability-a0af9576808a0963efca8df14d4b5183"
+      },
+      {
+        "label": "Boston Globe 转载",
+        "url": "https://www.bostonglobe.com/2026/10/21/business/website-vulnerabilities-php-update-php2shell/"
+      }
+    ],
+    "excerpt_note": "节选自原文开篇两段、PHP 基金会与 OpenAI 两段、从「近年来影响最大」到 Illumio 专家谈悖论的五段，以及结尾两段（约 430 词，略去芬兰政府网站、Arctic Wolf 专家估算影响与 OpenAI 引述 PHP 维护者等段落）。版权归 The Associated Press 所有，仅供个人学习，完整报道请看原文。",
+    "sections": [
+      [
+        "An AI-assisted discovery of vulnerabilities in a widely used programming language led governments and other organizations in Europe and the U.S. to take their websites offline temporarily Wednesday as they scrambled to make security updates.",
+        "The FBI’s cyber division warned the vulnerabilities could allow malicious actors to remotely execute code in the programming language, PHP, which powers websites and web applications. That raised the risk of sensitive data and networks being compromised, said the agency, which recommended that operators take websites offline if they can’t update them immediately."
+      ],
+      [
+        "The PHP Foundation, which includes developers who work on securing the programming language, said Wednesday it had released fixes for the vulnerabilities, along with instructions on how to update systems.",
+        "Artificial intelligence agents helped uncover the vulnerabilities. In a blog post, OpenAI said it had led a coalition of researchers, security providers and others to address vulnerabilities in PHP over the past two months."
+      ],
+      [
+        "San Francisco-based OpenAI called the flaws “one of the most impactful security issues in recent memory.” It said AI appeared to find the vulnerabilities before any attackers did.",
+        "“As significant as they are, these bugs are among several significant vulnerabilities we’ve already found and are working to fix, and we expect similar findings to increase sharply in the coming months,” OpenAI said.",
+        "AI agents have been blamed for a host of high-profile security incidents in recent months. The episodes have highlighted the vulnerabilities in AI security and raised questions over how the fast-growing technology can be developed safely as its usage becomes more widespread globally. But experts also pointed out that AI can also help with discovering cyber vulnerabilities, as it did in the PHP case.",
+        "“There’s an important paradox here. We want AI to move quickly enough to find vulnerabilities humans might miss, while also making sure that increasingly autonomous systems operate within boundaries we understand and control,” said Raghu Nandakumara, vice president of industry Strategy at cybersecurity company Illumio.",
+        "“The faster AI becomes at finding weaknesses, the more important it becomes to think about what happens after those weaknesses are exposed, especially when organizations can’t immediately patch every affected system,” Nandakumara added. “The lesson isn’t that AI is inherently dangerous or inherently protective. It’s that speed without control creates a new kind of security problem.”"
+      ],
+      [
+        "Valenzuela, of Arctic Wolf, said AI advances are also changing what flaws are considered “exploitable,” noting that some of these vulnerabilities have existed for more than a decade.",
+        "“What changed wasn’t the underlying code, but the ability to find those weaknesses and turn them into working exploits,” he said."
+      ]
+    ]
+  },
+  "notes": [
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "AI-assisted",
+      "type": "grammar",
+      "head": "名词 + 过去分词 复合形容词",
+      "zh": "AI-assisted = assisted by AI「AI 辅助的」。同类：computer-generated（电脑生成的）、user-friendly。an AI-assisted discovery = 在 AI 帮助下取得的发现。"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "vulnerabilities",
+      "type": "vocab",
+      "head": "vulnerability",
+      "zh": "/ˌvʌlnərəˈbɪləti/ n. 弱点；（软件）安全漏洞。形容词 vulnerable（易受攻击的）。例：Hackers exploited a vulnerability in the login page."
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "led governments and other organizations",
+      "type": "grammar",
+      "head": "lead sb to do sth",
+      "zh": "主语是一个抽象名词短语 An AI-assisted discovery …，谓语 led，后接 sb + to take …：「一项发现促使各国政府和机构把网站下线」。lead sb to do = 导致/促使某人做某事。"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "to take their websites offline",
+      "type": "idiom",
+      "head": "take sth offline",
+      "zh": "让（网站、系统）下线、停止联网服务。反义 bring sth back online（恢复上线）。go offline = 下线（不及物）。"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "temporarily",
+      "type": "vocab",
+      "head": "temporarily",
+      "zh": "/ˌtempəˈrerəli/ adv. 暂时地、临时地。形容词 temporary。反义 permanently（永久地）。例：The store is temporarily closed."
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "scrambled to",
+      "type": "idiom",
+      "head": "scramble to do sth",
+      "zh": "手忙脚乱地赶着做、争先恐后地做。scramble /ˈskræmbəl/ 本义「攀爬、争抢」。例：Investors scrambled to sell their shares. 炒鸡蛋 scrambled eggs 也是这个词。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "cyber division",
+      "type": "vocab",
+      "head": "division / cyber",
+      "zh": "division /dɪˈvɪʒən/ n. （机构的）部门、处；cyber /ˈsaɪbər/ adj. 网络的、计算机的。FBI’s cyber division = 联邦调查局网络犯罪部门。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "malicious actors",
+      "type": "idiom",
+      "head": "malicious actors",
+      "zh": "恶意行为者、黑客（安全报道的标准说法）。malicious /məˈlɪʃəs/ adj. 恶意的。同义 bad actors / threat actors。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "remotely execute code",
+      "type": "vocab",
+      "head": "execute",
+      "zh": "/ˈeksɪkjuːt/ v. 执行（程序、命令）。remotely execute code = 远程执行代码，简称 RCE（remote code execution），是最严重的漏洞类型之一。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "which powers websites",
+      "type": "grammar",
+      "head": "非限制性定语从句 + power v.",
+      "zh": "逗号后 which 补充说明 PHP。power 作动词 =「驱动、为……提供动力」：PHP powers websites = 网站靠 PHP 运行。例：Solar panels power the building."
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "raised the risk",
+      "type": "idiom",
+      "head": "raise the risk of …",
+      "zh": "增加……的风险。反义 reduce / lower the risk。比较：raise concerns（引发担忧）、raise questions（引发疑问）。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "sensitive data and networks being compromised",
+      "type": "grammar",
+      "head": "the risk of + 名词 + being done",
+      "zh": "of 后面是「名词 + 动名词被动式」：sensitive data … being compromised =「敏感数据被攻破」。compromise /ˈkɑːmprəmaɪz/ 在安全语境里 = 使遭入侵、泄露。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "said the agency, which recommended",
+      "type": "grammar",
+      "head": "said + 主语 倒装",
+      "zh": "新闻引语常把 said 提前：… said the agency。主语后再接 which 从句补充，倒装后从句紧挨主语，读起来更顺。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "that operators take websites",
+      "type": "grammar",
+      "head": "recommend that + 动词原形",
+      "zh": "recommend / suggest / insist that 从句用（should）+ 动词原形，所以是 operators take，而不是 takes / took。例：The doctor recommended that he rest for a week."
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "who work on securing",
+      "type": "grammar",
+      "head": "嵌套从句 / work on doing",
+      "zh": "which includes developers who work on … 两层从句：which 修饰 the PHP Foundation，who 修饰 developers。work on + 动名词 = 致力于、负责做。secure 在这里是动词「保障……的安全」。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "had released fixes",
+      "type": "grammar",
+      "head": "间接引语里的过去完成时",
+      "zh": "said Wednesday it had released …：先发布补丁，后宣布，所以用 had released。fix 作名词 =（问题的）修复、补丁，同义 patch。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "along with",
+      "type": "idiom",
+      "head": "along with",
+      "zh": "连同、以及。fixes …, along with instructions = 补丁和升级说明一起发布。along with 引出的成分不影响主语单复数：The CEO, along with his team, is here."
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "uncover",
+      "type": "vocab",
+      "head": "uncover",
+      "zh": "/ʌnˈkʌvər/ v. 发现、揭露（隐藏的东西）。uncover a flaw / a plot / the truth。un- + cover（盖）=「揭开盖子」。同义 discover / expose。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "coalition",
+      "type": "vocab",
+      "head": "coalition",
+      "zh": "/ˌkoʊəˈlɪʃən/ n. 联盟、联合体。led a coalition of researchers = 牵头组织研究人员联盟。也指政党联合：a coalition government（联合政府）。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "over the past two months",
+      "type": "idiom",
+      "head": "over the past + 时间段",
+      "zh": "在过去（两个月）里，强调一段持续时间。常配完成时：Prices have risen over the past year。这里因为是间接引语，变成了 had led。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "San Francisco-based",
+      "type": "grammar",
+      "head": "地名 + -based 复合形容词",
+      "zh": "San Francisco-based OpenAI = 总部位于旧金山的 OpenAI。新闻常用：a London-based bank、a Beijing-based startup。based in 作后置：a startup based in Beijing。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "impactful",
+      "type": "vocab",
+      "head": "impactful",
+      "zh": "/ɪmˈpæktfəl/ adj. 影响巨大的、有冲击力的。较新的商务/科技用词，正式写作可换 significant / far-reaching。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "in recent memory",
+      "type": "idiom",
+      "head": "in recent memory",
+      "zh": "近些年来、在人们的记忆里。one of the most … in recent memory = 近年来最……之一。例：It was the hottest summer in recent memory."
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "before any attackers did",
+      "type": "grammar",
+      "head": "did 替代谓语",
+      "zh": "did = found the vulnerabilities，避免重复。AI 在任何攻击者之前就找到了漏洞。any 在比较/before 语境里 =「任何一个」。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "As significant as they are",
+      "type": "grammar",
+      "head": "As + 形容词 + as + 主语 + be 表让步",
+      "zh": "= Although they are significant「尽管它们很严重」。美式英语保留开头的 as；也可写成 Significant as they are。例：As tired as I was, I kept working."
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "are among",
+      "type": "idiom",
+      "head": "be among …",
+      "zh": "是……之一、属于……之列。these bugs are among several significant vulnerabilities = 这些漏洞只是若干重大漏洞中的几个。同义 be one of。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "increase sharply",
+      "type": "idiom",
+      "head": "increase sharply",
+      "zh": "急剧增加、大幅上升。sharply 修饰涨跌：fall sharply / rise sharply。反义 increase gradually / slightly。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "in the coming months",
+      "type": "idiom",
+      "head": "in the coming months",
+      "zh": "未来几个月里。coming = 即将到来的。同类：in the coming weeks / years。常与 will / expect 连用。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "have been blamed for",
+      "type": "idiom",
+      "head": "be blamed for",
+      "zh": "被归咎于、被指责造成了……。blame sb/sth for sth = 把某事归咎于……。现在完成时被动 have been blamed：最近几个月来一直被指责。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "a host of",
+      "type": "idiom",
+      "head": "a host of",
+      "zh": "许多、一大堆（同类事物）= a large number of。a host of problems / questions / reasons。host 本义「主人；大批」。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "high-profile",
+      "type": "vocab",
+      "head": "high-profile",
+      "zh": "/ˌhaɪ ˈproʊfaɪl/ adj. 备受关注的、高调的、引人注目的。high-profile incidents = 引人注目的事件。反义 low-profile（低调的）；keep a low profile = 保持低调。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "raised questions over how",
+      "type": "grammar",
+      "head": "raise questions over + how 从句",
+      "zh": "over = about「关于」。how 从句（陈述语序）作 over 的宾语：how the fast-growing technology can be developed safely = 这项飞速发展的技术如何能被安全地开发。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "as its usage becomes",
+      "type": "grammar",
+      "head": "as 表「随着」",
+      "zh": "as + 主语 + 变化动词（becomes / grows / increases）=「随着……」。as its usage becomes more widespread = 随着它的使用越来越普遍。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "widespread",
+      "type": "vocab",
+      "head": "widespread",
+      "zh": "/ˈwaɪdspred/ adj. 广泛的、普遍的。widespread use / support / concern。例：The new policy has widespread support."
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "pointed out",
+      "type": "idiom",
+      "head": "point out",
+      "zh": "指出、提醒注意。point out that … = 指出……。例：She pointed out that the deadline had passed."
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "as it did in the PHP case",
+      "type": "grammar",
+      "head": "as 表「正如」+ did 替代",
+      "zh": "as it did = 正如它（在 PHP 这件事里）做到的那样。did 替代 helped with discovering cyber vulnerabilities。"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "anchor": "paradox",
+      "type": "vocab",
+      "head": "paradox",
+      "zh": "/ˈpærədɑːks/ n. 悖论、自相矛盾的情况。形容词 paradoxical。There’s an important paradox here = 这里有个重要的矛盾：既要快，又要可控。"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "anchor": "quickly enough to find",
+      "type": "grammar",
+      "head": "副词 + enough to do",
+      "zh": "enough 修饰形容词/副词时放在后面：quickly enough（足够快）、old enough to vote。修饰名词时放前面：enough time。"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "anchor": "vulnerabilities humans might miss",
+      "type": "grammar",
+      "head": "省略关系代词",
+      "zh": "= vulnerabilities that humans might miss。关系代词在从句中作宾语可省略。might 表推测：人类「可能」漏掉的漏洞。"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "anchor": "while also making sure that",
+      "type": "grammar",
+      "head": "while + doing / make sure that",
+      "zh": "while 后省略主语 we，用 -ing：while also making sure … = 同时也要确保……。make sure that = 确保。"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "anchor": "autonomous",
+      "type": "vocab",
+      "head": "autonomous",
+      "zh": "/ɔːˈtɑːnəməs/ adj. 自主的、自治的。autonomous systems = 自主系统；autonomous vehicles = 自动驾驶汽车。名词 autonomy。"
+    },
+    {
+      "p": [
+        2,
+        3
+      ],
+      "anchor": "within boundaries we understand and control",
+      "type": "idiom",
+      "head": "operate within boundaries",
+      "zh": "在（可控的）边界、范围内运行。within boundaries = 不越界。boundaries we understand and control 同样省略了 that。"
+    },
+    {
+      "p": [
+        2,
+        4
+      ],
+      "anchor": "The faster AI becomes at finding weaknesses, the more important it becomes",
+      "type": "grammar",
+      "head": "The + 比较级 …, the + 比较级 …",
+      "zh": "「越……就越……」：AI 找漏洞越快，就越需要考虑漏洞暴露之后怎么办。be fast at doing = 做某事快。第二部分里 it 是形式主语，真正主语是 to think about …。"
+    },
+    {
+      "p": [
+        2,
+        4
+      ],
+      "anchor": "what happens after",
+      "type": "grammar",
+      "head": "what 引导宾语从句",
+      "zh": "think about what happens after … = 思考……之后会发生什么。what 在从句中作主语，所以是 what happens，不需要 does。"
+    },
+    {
+      "p": [
+        2,
+        4
+      ],
+      "anchor": "patch",
+      "type": "vocab",
+      "head": "patch",
+      "zh": "/pætʃ/ v./n. 打补丁、修补；（软件）补丁。patch a system = 给系统打补丁。security patch = 安全补丁。原义是衣服上的补丁。"
+    },
+    {
+      "p": [
+        2,
+        4
+      ],
+      "anchor": "The lesson isn’t that",
+      "type": "grammar",
+      "head": "The lesson isn’t that A. It’s that B.",
+      "zh": "「教训不在于 A，而在于 B」：先否定一个常见看法，再给出真正观点，是很有用的论证句式。that 引导表语从句。"
+    },
+    {
+      "p": [
+        2,
+        4
+      ],
+      "anchor": "inherently",
+      "type": "vocab",
+      "head": "inherently",
+      "zh": "/ɪnˈhɪrəntli/ adv. 本质上、固有地。inherently dangerous = 本身就危险。形容词 inherent：inherent risks（固有风险）。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "Valenzuela, of Arctic Wolf,",
+      "type": "grammar",
+      "head": "人名, of + 机构,",
+      "zh": "新闻里用 of 交代人物所属机构：Valenzuela, of Arctic Wolf = 来自 Arctic Wolf 公司的 Valenzuela。前文已介绍过他，这里简短重提。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "what flaws are considered",
+      "type": "grammar",
+      "head": "what 宾语从句 + be considered",
+      "zh": "changing what flaws are considered “exploitable” = 改变了哪些漏洞会被认为「可利用」。what 在这里作限定词（= which）修饰 flaws。be considered + adj. = 被认为是……。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "exploitable",
+      "type": "vocab",
+      "head": "exploitable",
+      "zh": "/ɪkˈsplɔɪtəbəl/ adj. 可被利用的。动词 exploit /ɪkˈsplɔɪt/ = 利用（漏洞）；名词 exploit /ˈeksplɔɪt/ = 漏洞利用程序（注意重音前移）。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "noting that",
+      "type": "grammar",
+      "head": "分词状语 noting that …",
+      "zh": "noting that = and he noted that …，伴随说明。note 作动词 =「指出、提到」。新闻常用 adding that / noting that 承接引语。"
+    },
+    {
+      "p": [
+        3,
+        0
+      ],
+      "anchor": "for more than a decade",
+      "type": "idiom",
+      "head": "for more than a decade",
+      "zh": "十多年来。decade /ˈdekeɪd/ n. 十年。have existed for … = 已存在了……（现在完成时 + for 时间段）。"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "anchor": "What changed wasn’t",
+      "type": "grammar",
+      "head": "What 主语从句 + not A but B",
+      "zh": "What changed（变了的东西）作主语；wasn’t A, but B =「不是 A，而是 B」。变的不是底层代码，而是发现漏洞并把它变成可用攻击程序的能力。"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "anchor": "underlying",
+      "type": "vocab",
+      "head": "underlying",
+      "zh": "/ˌʌndərˈlaɪɪŋ/ adj. 底层的、潜在的、根本的。underlying code = 底层代码；underlying problem = 根本问题。"
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "anchor": "turn them into",
+      "type": "idiom",
+      "head": "turn A into B",
+      "zh": "把 A 变成 B。turn weaknesses into working exploits = 把漏洞变成真正能用的攻击程序。例：She turned her hobby into a business."
+    },
+    {
+      "p": [
+        3,
+        1
+      ],
+      "anchor": "working exploits",
+      "type": "idiom",
+      "head": "working exploit",
+      "zh": "能实际运行的漏洞利用程序。working 作形容词 =「能用的、有效的」：a working model（可运行的样机）、a working knowledge of French（够用的法语）。"
+    }
+  ],
+  "review_words": [
+    {
+      "word": "vulnerability",
+      "ipa": "/ˌvʌlnərəˈbɪləti/",
+      "zh": "n. 弱点；（软件）安全漏洞",
+      "example": "Artificial intelligence agents helped uncover the vulnerabilities."
+    },
+    {
+      "word": "malicious",
+      "ipa": "/məˈlɪʃəs/",
+      "zh": "adj. 恶意的",
+      "example": "The FBI’s cyber division warned the vulnerabilities could allow malicious actors to remotely execute code in the programming language, PHP, which powers websites and web applications."
+    },
+    {
+      "word": "coalition",
+      "ipa": "/ˌkoʊəˈlɪʃən/",
+      "zh": "n. 联盟、联合体",
+      "example": "In a blog post, OpenAI said it had led a coalition of researchers, security providers and others to address vulnerabilities in PHP over the past two months."
+    },
+    {
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "zh": "adj. 自主的、自治的",
+      "example": "We want AI to move quickly enough to find vulnerabilities humans might miss, while also making sure that increasingly autonomous systems operate within boundaries we understand and control."
+    },
+    {
+      "word": "inherently",
+      "ipa": "/ɪnˈhɪrəntli/",
+      "zh": "adv. 本质上、固有地",
+      "example": "The lesson isn’t that AI is inherently dangerous or inherently protective."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "The + 比较级 A …, the + 比较级 it becomes to do B",
+      "zh": "A 越……，做 B 就越……",
+      "from": "“The faster AI becomes at finding weaknesses, the more important it becomes to think about what happens after those weaknesses are exposed, especially when organizations can’t immediately patch every affected system,” Nandakumara added.",
+      "model": "The more you rely on AI tools, the more important it becomes to check their answers yourself.",
+      "model_zh": "你越依赖 AI 工具，就越需要自己核对它们给出的答案。"
+    },
+    {
+      "pattern": "The lesson isn’t that A. It’s that B.",
+      "zh": "教训不在于 A，而在于 B（先否定常见看法，再亮出真正观点）",
+      "from": "“The lesson isn’t that AI is inherently dangerous or inherently protective. It’s that speed without control creates a new kind of security problem.”",
+      "model": "The lesson isn’t that remote work doesn’t work. It’s that teams need clearer rules for communication.",
+      "model_zh": "教训不在于远程办公行不通，而在于团队需要更清晰的沟通规则。"
+    },
+    {
+      "pattern": "What changed wasn’t A, but B",
+      "zh": "变的不是 A，而是 B（What 主语从句 + not A but B）",
+      "from": "“What changed wasn’t the underlying code, but the ability to find those weaknesses and turn them into working exploits,” he said.",
+      "model": "What changed wasn’t the price of the phone, but the way people pay for it.",
+      "model_zh": "变的不是手机的价格，而是人们付款的方式。"
+    },
+    {
+      "pattern": "As + adj. + as A is/are, A …",
+      "zh": "尽管 A 很……，A 还是……（让步）",
+      "from": "“As significant as they are, these bugs are among several significant vulnerabilities we’ve already found and are working to fix, and we expect similar findings to increase sharply in the coming months,” OpenAI said.",
+      "model": "As popular as the app is, it still loses money every quarter.",
+      "model_zh": "尽管这款 App 很受欢迎，它每个季度仍在亏损。"
+    }
+  ],
+  "podcast": {
+    "show": "WSJ Minute Briefing (The Wall Street Journal)",
+    "title": "AI Finds a Bug That Puts Up to 70% of the World’s Websites at Risk",
+    "date": "2026-10-21",
+    "url": "https://podcasts.apple.com/us/podcast/ai-finds-a-bug-that-puts-up-to-70-of-the-worlds-websites-at-risk/id1202441485?i=1000797470608",
+    "zh": "《华尔街日报》每日简报播客 WSJ Minute Briefing 美东 10 月 21 日午间版（几分钟，Alex Ossola 主持）：头条就是 AI 发现可能波及全球多达七成网站的 PHP 漏洞。和今天文章是同一件事，适合泛听抓 bug / vulnerability / websites / at risk 这类词。"
+  },
+  "audio": {
+    "normal": "audio.mp3",
+    "slow": "audio-slow.mp3",
+    "voice": "en-US-AriaNeural"
+  }
+}
