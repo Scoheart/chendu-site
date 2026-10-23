@@ -1,0 +1,530 @@
+{
+  "date": "2026-10-23",
+  "topic": "stocks",
+  "topic_label": "美股",
+  "issue_title_zh": "AI 股又一次「哆嗦」：纳指暴跌 2.6%，美债收益率大跌",
+  "lead_zh": "今天读美联社商业记者 Stan Choe 的收盘报道（美东 10 月 22 日周四）。泛林集团财报好于预期却暴跌 11.8%，Meta 跌 7%，英伟达跌 4.4% 成为拖累标普最大的单一力量；纳指跌 2.6%、标普跌 1.2%，但标普成分股里其实多数上涨。投资者转向避险，10 年期美债收益率从 5.13% 跌到 4.97%。重点看：shudder / tumble / mask / under threat / shoot too high / carry weight / in search of / even as 这类财经表达。",
+  "article": {
+    "title": "Sharp drops for AI stocks overwhelm markets worldwide as oil prices jump",
+    "author": "Stan Choe",
+    "source": "The Associated Press",
+    "published": "2026-10-22 17:07 EDT（北京时间 10 月 23 日 05:07；WTOP 转载页时间）",
+    "url": "https://wtop.com/national/2026/10/asian-shares-retreat-after-strong-profits-lead-a-rally-on-wall-street/",
+    "url_label": "AP 原文（WTOP 转载）",
+    "alt_urls": [
+      {
+        "label": "AP News 原文",
+        "url": "https://apnews.com/article/stocks-markets-rates-earnings-oil-33767691a4a0730b96d6f0c5100ea9b2"
+      },
+      {
+        "label": "The Washington Post 转载",
+        "url": "https://www.washingtonpost.com/business/2026/10/22/stocks-markets-rates-earnings-oil/a1dee06e-cdd3-11f1-ac04-9f58578a68b4_story.html"
+      }
+    ],
+    "excerpt_note": "节选自原文开篇五段、Meta 与英伟达两段，以及美债收益率三段（约 430 词，略去特斯拉、CoreWeave、亚洲与欧洲市场、油价及宝洁等段落）。版权归 The Associated Press 所有，仅供个人学习，完整报道请看原文。",
+    "sections": [
+      [
+        "NEW YORK (AP) — The latest shudder for stocks in the artificial-intelligence industry pulled markets lower worldwide on Thursday, while oil prices hit their highest levels since May on worries about the war with Iran.",
+        "The S&P 500 fell 1.2% for its worst day since July, while the Nasdaq composite tumbled 2.6%. The weakness for tech stocks was so overwhelming that it masked strength for the rest of the U.S. market, where the majority of stocks actually rose. The Dow Jones Industrial Average added 11 points, or less than 0.1%.",
+        "AI-related stocks have been swinging on worries that their boom may be under threat because of how expensive it’s become to borrow money to build data centers and buy more AI chips. Concerns also remain that their prices shot too high following a yearslong frenzy, even though companies in the industry continue to report growth.",
+        "Lam Research, whose equipment and services help make semiconductors, reported gains in profit and revenue for the summer that were slightly stronger than analysts expected, for example. Usually, that helps boost a stock’s price, but Lam Research’s tumbled 11.8%.",
+        "It gave a range for its forecast for profit this quarter whose midpoint was slightly below analysts’ expectations. Its stock also came into the day with a 52.4% surge for the year so far, nearly quadruple the gain for the overall S&P 500, leaving plenty of room for potential disappointment."
+      ],
+      [
+        "Meta Platforms, which is pushing its Muse AI agent, lost 7% after reporting stronger revenue for the latest quarter than analysts expected, though its profit fell short. The company behind Facebook and Instagram also said it’s creating a new class of stock to raise money to pay for AI investments and other expenses.",
+        "The global tide against AI stocks knocked Nvidia down 4.4%. Because the chip giant is the largest company on Wall Street by total value, movements for its stock carry more weight on the S&P 500 than any other, and it was the single strongest force pulling the index lower."
+      ],
+      [
+        "But U.S. yields nevertheless fell sharply Thursday in a signal that investors were buying U.S. government bonds in search of something safer to own as AI stocks tumbled.",
+        "The yield on the 10-year Treasury tumbled to 4.97% from 5.13% late Wednesday and from more than 5.30% earlier this month. That’s a major move for the bond market.",
+        "Thursday’s drop in yields came even as another report suggested the U.S. economy may be doing better than economists expected. It said fewer U.S. workers applied for unemployment benefits last week, which could signal that layoffs remain low across the country."
+      ]
+    ]
+  },
+  "notes": [
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "shudder",
+      "type": "vocab",
+      "head": "shudder",
+      "zh": "/ˈʃʌdər/ n./v. 颤抖、哆嗦。The latest shudder for stocks = 股市的又一次「哆嗦」，比喻突然的剧烈下跌。名词复数 shudders 也常见：send shudders through the market（让市场一阵发抖）。"
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "pulled markets lower",
+      "type": "idiom",
+      "head": "pull … lower",
+      "zh": "把……拉低。pulled markets lower worldwide = 拖累全球股市走低。反义 push/lift … higher。例：Tech stocks pulled the index lower."
+    },
+    {
+      "p": [
+        0,
+        0
+      ],
+      "anchor": "on worries about",
+      "type": "grammar",
+      "head": "on 表原因",
+      "zh": "on worries about the war with Iran = 由于对伊朗战争的担忧。财经新闻常用 on + 名词 表示原因：Oil rose on supply fears. 上一期 on uncertainty about 是同一用法。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "for its worst day since July",
+      "type": "grammar",
+      "head": "for 表「算作、结果」",
+      "zh": "The S&P 500 fell 1.2% for its worst day since July = 标普下跌 1.2%，成为 7 月以来最糟糕的一天。for 引出这次下跌带来的结果/归类。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "tumbled",
+      "type": "vocab",
+      "head": "tumble",
+      "zh": "/ˈtʌmbəl/ v. 暴跌、跌倒。the Nasdaq composite tumbled 2.6% = 纳指暴跌 2.6%。比 fall / drop 更猛烈。同类：plunge / sink / slide。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "so overwhelming that",
+      "type": "grammar",
+      "head": "so … that … 结果状语从句",
+      "zh": "The weakness … was so overwhelming that it masked … = 科技股的疲软如此压倒性，以至于掩盖了……。overwhelming /ˌoʊvərˈwelmɪŋ/ adj. 压倒性的、势不可挡的。"
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "masked strength for the rest of",
+      "type": "idiom",
+      "head": "mask sth",
+      "zh": "掩盖、遮住（某种真实情况）。masked strength for the rest of the U.S. market = 掩盖了美股其他部分的强势。mask 原义「面具」。例：Strong sales masked weak profits."
+    },
+    {
+      "p": [
+        0,
+        1
+      ],
+      "anchor": "where the majority of stocks actually rose",
+      "type": "grammar",
+      "head": "where 非限制性定语从句",
+      "zh": "where 指代 the rest of the U.S. market，= in which：「而在那（其余市场）里，大多数股票其实是上涨的」。actually 表示「出人意料地、事实上」。the majority of = 大多数。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "have been swinging on worries that",
+      "type": "grammar",
+      "head": "现在完成进行时 + 同位语从句",
+      "zh": "have been swinging = 一直在大幅摇摆（持续到现在）。worries that their boom may be under threat … 是同位语从句，说明担忧的内容。swing v. 摆动；股价 swing = 大起大落。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "under threat",
+      "type": "idiom",
+      "head": "under threat",
+      "zh": "受到威胁。their boom may be under threat = 它们的繁荣可能受到威胁。under + 名词表示处于某种状态：under pressure / under review / under way。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "how expensive it’s become to borrow money",
+      "type": "grammar",
+      "head": "how 宾语从句 + 形式主语 it",
+      "zh": "because of 后接 how 引导的名词性从句：「因为借钱已经变得多么昂贵」。it’s = it has；it 是形式主语，真正主语是 to borrow money …。句型 it has become + adj. + to do。"
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "shot too high",
+      "type": "idiom",
+      "head": "shoot too high",
+      "zh": "（价格）冲得太高、涨过头。shoot-shot-shot。their prices shot too high = 估值涨过头了。shoot up = 飙升：Oil prices shot up."
+    },
+    {
+      "p": [
+        0,
+        2
+      ],
+      "anchor": "yearslong frenzy",
+      "type": "vocab",
+      "head": "frenzy",
+      "zh": "/ˈfrenzi/ n. 狂热、疯狂。a yearslong frenzy = 持续数年的狂热。yearslong 是合成形容词，= lasting years。同义 euphoria / mania。例：a buying frenzy（抢购狂潮）。"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "anchor": "whose equipment and services",
+      "type": "grammar",
+      "head": "whose 非限制性定语从句",
+      "zh": "Lam Research, whose equipment and services help make semiconductors, … = 泛林集团（其设备和服务帮助制造半导体）……。用插入的 whose 从句给读者介绍公司是做什么的。help (to) do，to 可省。"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "anchor": "semiconductors",
+      "type": "vocab",
+      "head": "semiconductor",
+      "zh": "/ˌsemikənˈdʌktər/ n. 半导体；芯片。semi- = 半，conductor = 导体。semiconductor stocks = 半导体股。口语常说 chips。"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "anchor": "slightly stronger than analysts expected",
+      "type": "grammar",
+      "head": "比较状语从句",
+      "zh": "slightly stronger than analysts expected = 比分析师预期的略好。slightly 修饰比较级表「稍微」；也可用 much / far / a bit。expected 后省略宾语。"
+    },
+    {
+      "p": [
+        0,
+        3
+      ],
+      "anchor": "Lam Research’s tumbled",
+      "type": "grammar",
+      "head": "所有格后省略名词",
+      "zh": "Lam Research’s tumbled 11.8% = Lam Research’s (stock price) tumbled，前面刚说过 a stock’s price，所以省略 stock price，避免重复。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "whose midpoint was slightly below",
+      "type": "grammar",
+      "head": "whose 定语从句（指物）",
+      "zh": "a range for its forecast … whose midpoint was slightly below analysts’ expectations = 给出的利润预测区间，其中值略低于分析师预期。whose 可指物，= of which。股市看重的是业绩指引（guidance）。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "came into the day with",
+      "type": "idiom",
+      "head": "come into the day with",
+      "zh": "带着……进入这一天（开盘前已经……）。Its stock came into the day with a 52.4% surge for the year so far = 该股在当天之前今年已累计大涨 52.4%。surge /sɜːrdʒ/ n. 飙升。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "quadruple",
+      "type": "vocab",
+      "head": "quadruple",
+      "zh": "/kwɑːˈdruːpl/ adj./v. 四倍（的）。nearly quadruple the gain for the overall S&P 500 = 接近标普 500 整体涨幅的四倍。double 两倍、triple 三倍、quadruple 四倍。"
+    },
+    {
+      "p": [
+        0,
+        4
+      ],
+      "anchor": "leaving plenty of room for potential disappointment",
+      "type": "grammar",
+      "head": "现在分词作结果状语",
+      "zh": "leaving … 表示前面情况带来的结果：「（涨了这么多）留下了很大的失望空间」，即预期太高，稍有不及就容易下跌。room for = ……的余地。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "which is pushing its Muse AI agent",
+      "type": "grammar",
+      "head": "which 非限制性定语从句",
+      "zh": "插入补充信息：Meta Platforms（它正在力推自家的 Muse AI 智能体）。push 在这里是「大力推广」。agent n. 智能体、代理。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "though its profit fell short",
+      "type": "grammar",
+      "head": "though 让步 + fall short",
+      "zh": "though its profit fell short (of expectations) = 不过利润未达预期。fall short 后面省略了 of analysts’ expectations。though 放在句末补充转折。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "a new class of stock",
+      "type": "vocab",
+      "head": "class of stock",
+      "zh": "股票类别。a new class of stock = 新的一类股票（这里指无投票权股票）。class A / class B shares = A 类、B 类股，投票权不同。"
+    },
+    {
+      "p": [
+        1,
+        0
+      ],
+      "anchor": "to raise money to pay for",
+      "type": "grammar",
+      "head": "不定式表目的（连用）",
+      "zh": "creating a new class of stock to raise money to pay for AI investments = 设立新股以筹钱、再用来支付 AI 投资。两个 to do 层层递进：to raise（目的）→ to pay for（钱的用途）。raise money = 筹资。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "The global tide against",
+      "type": "idiom",
+      "head": "the tide against …",
+      "zh": "针对……的潮流/浪潮。The global tide against AI stocks = 全球抛售 AI 股的浪潮。the tide turned = 形势逆转。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "knocked Nvidia down 4.4%",
+      "type": "idiom",
+      "head": "knock sth down",
+      "zh": "把……打下来，即「使……下跌」。knocked Nvidia down 4.4% = 让英伟达跌了 4.4%。主语是「浪潮」这种抽象事物，拟人化写法。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "by total value",
+      "type": "vocab",
+      "head": "total value（市值）",
+      "zh": "by total value = 按总价值（即市值 market value / market capitalization）计算。the largest company on Wall Street by total value = 华尔街市值最大的公司。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "carry more weight",
+      "type": "idiom",
+      "head": "carry weight",
+      "zh": "有分量、影响大。movements for its stock carry more weight on the S&P 500 = 它的股价波动对标普 500 影响更大（标普按市值加权）。同义 matter more / have more influence。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "than any other",
+      "type": "grammar",
+      "head": "比较级 + than any other",
+      "zh": "carry more weight … than any other (company) = 比其他任何公司都更有分量，用比较级表达最高级意思。注意 any other 后通常接单数名词，这里省略了 company。"
+    },
+    {
+      "p": [
+        1,
+        1
+      ],
+      "anchor": "the single strongest force pulling the index lower",
+      "type": "grammar",
+      "head": "single 强调最高级 + 分词后置定语",
+      "zh": "the single strongest force = 唯一最大的力量，single 加强最高级语气。pulling the index lower 修饰 force = force that was pulling the index lower。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "nevertheless",
+      "type": "vocab",
+      "head": "nevertheless",
+      "zh": "/ˌnevərðəˈles/ adv. 然而、尽管如此。U.S. yields nevertheless fell sharply = 尽管如此，美债收益率还是大幅下跌。比 however 正式；同义 nonetheless。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "in a signal that",
+      "type": "grammar",
+      "head": "in a signal that（同位语从句）",
+      "zh": "in a signal that investors were buying U.S. government bonds = 这表明投资者在买入美国国债。that 从句解释 signal 的内容，属同位语从句。也可写 a sign that …。"
+    },
+    {
+      "p": [
+        2,
+        0
+      ],
+      "anchor": "in search of something safer to own",
+      "type": "idiom",
+      "head": "in search of",
+      "zh": "寻找、为了寻求。in search of something safer to own = 寻找更安全的资产来持有（避险）。something + adj. + to do：形容词后置修饰 something。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "The yield on the 10-year Treasury",
+      "type": "vocab",
+      "head": "yield / Treasury",
+      "zh": "yield /jiːld/ n. 收益率。Treasury /ˈtreʒəri/ n. 美国国债（大写，常指 Treasury notes/bonds）。10-year Treasury yield = 10 年期美债收益率。债券价格与收益率反向变动。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "tumbled to 4.97% from 5.13%",
+      "type": "grammar",
+      "head": "to … from …",
+      "zh": "tumbled to 4.97% from 5.13% = 从 5.13% 跌到 4.97%。英文财经新闻常把 to（新数值）放在 from（旧数值）前面，突出最新结果。"
+    },
+    {
+      "p": [
+        2,
+        1
+      ],
+      "anchor": "That’s a major move",
+      "type": "idiom",
+      "head": "a major move",
+      "zh": "大幅波动。move 在市场语境里 = 价格变动。That’s a major move for the bond market = 对债市来说这是很大的变动。同类：a big move / a sharp move。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "came even as",
+      "type": "grammar",
+      "head": "A came even as B",
+      "zh": "Thursday’s drop in yields came even as another report suggested … = 周四收益率下跌，而与此同时另一份报告却显示……。even as 强调两件事同时发生且形成反差。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "applied for unemployment benefits",
+      "type": "idiom",
+      "head": "apply for unemployment benefits",
+      "zh": "申领失业救济金。unemployment benefits = 失业救济。每周的「初请失业金人数」(initial jobless claims) 就是看有多少人 applied for unemployment benefits。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "which could signal that",
+      "type": "grammar",
+      "head": "which 指代前面整件事",
+      "zh": "which 指代前面「申领失业金的人减少」这件事，引导非限制性定语从句：「这可能表明……」。signal v. 预示、表明。"
+    },
+    {
+      "p": [
+        2,
+        2
+      ],
+      "anchor": "layoffs",
+      "type": "vocab",
+      "head": "layoff",
+      "zh": "/ˈleɪɔːf/ n. 裁员。layoffs remain low = 裁员人数仍然很低。动词短语 lay off（解雇）：The company laid off 500 workers."
+    }
+  ],
+  "review_words": [
+    {
+      "word": "shudder",
+      "ipa": "/ˈʃʌdər/",
+      "zh": "n./v. 颤抖；（市场）突然下跌",
+      "example": "The latest shudder for stocks in the artificial-intelligence industry pulled markets lower worldwide on Thursday."
+    },
+    {
+      "word": "frenzy",
+      "ipa": "/ˈfrenzi/",
+      "zh": "n. 狂热、疯狂",
+      "example": "Concerns also remain that their prices shot too high following a yearslong frenzy."
+    },
+    {
+      "word": "quadruple",
+      "ipa": "/kwɑːˈdruːpl/",
+      "zh": "adj./v. 四倍（的）",
+      "example": "Its stock also came into the day with a 52.4% surge for the year so far, nearly quadruple the gain for the overall S&P 500."
+    },
+    {
+      "word": "nevertheless",
+      "ipa": "/ˌnevərðəˈles/",
+      "zh": "adv. 然而、尽管如此",
+      "example": "But U.S. yields nevertheless fell sharply Thursday in a signal that investors were buying U.S. government bonds."
+    },
+    {
+      "word": "layoff",
+      "ipa": "/ˈleɪɔːf/",
+      "zh": "n. 裁员",
+      "example": "It said fewer U.S. workers applied for unemployment benefits last week, which could signal that layoffs remain low across the country."
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "A was so overwhelming that it masked B",
+      "zh": "A 如此压倒性，以至于掩盖了 B（so … that 结果从句）",
+      "from": "The weakness for tech stocks was so overwhelming that it masked strength for the rest of the U.S. market, where the majority of stocks actually rose.",
+      "model": "The demand for AI chips was so overwhelming that it masked weakness in the rest of the company’s business.",
+      "model_zh": "对 AI 芯片的需求如此强劲，以至于掩盖了公司其他业务的疲软。"
+    },
+    {
+      "pattern": "Usually, that helps boost A, but B …",
+      "zh": "通常这会推高 A，但 B 却……（先说常理，再说反常）",
+      "from": "Usually, that helps boost a stock’s price, but Lam Research’s tumbled 11.8%.",
+      "model": "Usually, a rate cut helps boost bank stocks, but this time they slid 3%.",
+      "model_zh": "通常降息会推高银行股，但这一次它们却下跌了 3%。"
+    },
+    {
+      "pattern": "Because A is …, B carry more weight on C than any other, and it was the single strongest force …",
+      "zh": "因为 A 是……，B 对 C 的影响比其他任何一个都大，它是……的唯一最大力量",
+      "from": "Because the chip giant is the largest company on Wall Street by total value, movements for its stock carry more weight on the S&P 500 than any other, and it was the single strongest force pulling the index lower.",
+      "model": "Because oil is the country’s biggest export, swings in its price carry more weight on the economy than any other, and it was the single strongest force behind last year’s slowdown.",
+      "model_zh": "因为石油是该国最大的出口商品，油价波动对经济的影响比其他任何因素都大，它是去年经济放缓背后最主要的单一力量。"
+    },
+    {
+      "pattern": "A came even as B suggested …",
+      "zh": "A 发生的同时，B 却显示……（even as 表反差）",
+      "from": "Thursday’s drop in yields came even as another report suggested the U.S. economy may be doing better than economists expected.",
+      "model": "The sell-off came even as the latest data suggested consumers are still spending freely.",
+      "model_zh": "抛售发生之际，最新数据却显示消费者仍在大方花钱。"
+    }
+  ],
+  "podcast": {
+    "show": "WSJ Minute Briefing (The Wall Street Journal)",
+    "title": "Oil Jumps as Fresh Strikes Threaten Broader Middle East Conflict",
+    "date": "2026-10-22",
+    "url": "https://podcasts.apple.com/us/podcast/oil-jumps-as-fresh-strikes-threaten-broader-middle/id1202441485?i=1000797600762",
+    "zh": "《华尔街日报》每日简报播客 WSJ Minute Briefing 美东 10 月 22 日早间版（不到 2 分钟，Luke Vargas 主持）：新的袭击让油价跳涨，另一轮 AI 焦虑在全球市场蔓延，还有雀巢增长好于预期。和今天文章是同一个交易日的两大主线（AI 股下跌 + 油价上涨），适合泛听抓 oil / AI jitters / global markets 这类词。"
+  },
+  "audio": {
+    "normal": "audio.mp3",
+    "slow": "audio-slow.mp3",
+    "voice": "en-US-AriaNeural"
+  }
+}
